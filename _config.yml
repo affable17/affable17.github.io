@@ -19,6 +19,11 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://affable17.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 repository: affable17/affable17.github.io # for github-metadata
 
+#Theme
+theme : "just-the-docs"
+remote_theme : just-the-docs/just-the-docs
+
+
 permalink: pretty
 
 exclude:
@@ -102,7 +107,7 @@ heading_anchors: true
 # Aux links for the upper right navigation
 aux_links:
   "Just the Docs on GitHub":
-    - "https://github.com/just-the-docs/just-the-docs"
+    - "https://affable17.github.io"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: false
@@ -118,6 +123,10 @@ nav_external_links:
 
 # Footer content
 # appears at the bottom of every page's main content
+gh_edit_link: true
+gh_edit_link_test: "Edit this page on GitHub"
+gh_edit_repository: "https://affable17.github.io"
+
 
 # Back to top link
 back_to_top: true
